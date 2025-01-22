@@ -18,7 +18,7 @@
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 
 
-    <script src="js/produtos.js"></script>
+    <script src="app.js"></script>
 
 
 </head>
@@ -31,7 +31,7 @@
                 <div class="col-sm-3" class="header-brand">YEBERA PARIS</div>
                 <div class="col-sm-1">
                     <button class="custom-btn">
-                        <i class="bi bi-send"></i>
+                        <i class="fa-solid fa-paper-plane"></i>
                     </button>
                     <button class="custom-btn">
                         <i class="fa-solid fa-medal fa-beat"></i>
@@ -92,102 +92,346 @@
                     </div>
                 </div>
                 <div class="col-sm-8">
-                    <div class="banner">
-                        <img src="images/yberaParis.jpg" alt=" Banner" class="banner-img">
-                    </div>
-                </div>
+                    <div id="carouselPropaganda" class="carousel slide" data-ride="carousel">
+                        <!-- Indicadores do carrossel -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselPropaganda" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselPropaganda" data-slide-to="1"></li>
+                            <li data-target="#carouselPropaganda" data-slide-to="2"></li>
+                            <li data-target="#carouselPropaganda" data-slide-to="3"></li>
+                        </ol>
 
-            </div>
-
-        </div>
-
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-sm-3" class="header-brand">YEBERA PARIS</div>
-
-                <div class="col-sm-9">
-                    <div id="carousel" class="carousel slide">
+                        <!-- Conteúdo do carrossel -->
                         <div class="carousel-inner">
-                            <!-- Primeira "slide" do carrossel -->
                             <div class="carousel-item active">
-                                <div class="button-container">
-                                    <button class="btn">
-                                        <i class="bi bi-percent"></i>
-                                        <span class="button-text">Todas as ofertas</span>
-                                    </button>
-                                    <button class="btn">
-                                        <i class="bi bi-lightning"></i>
-                                        <span class="button-text">Ofertas relâmpago </span>
-                                    </button>
-                                    <button class="btn">
-                                        <i class="bi bi-megaphone"></i>
-                                        <span class="button-text">Salvos</span>
-                                    </button>
-                                    <button class="btn">
-                                        <i class="bi bi-bag-heart"></i>
-                                        <span class="button-text">Outlet</span>
-                                    </button>
-                                    <button class="btn">
-                                        <i class="fa-solid fa-brazilian-real-sign"></i>
-                                        <span class="button-text">Menos de R$100</span>
-                                    </button>
-                                </div>
+                                <img class="d-block w-100" src="images/oscar-menswear-banner-principal.png" alt="Primeiro slide">
                             </div>
-
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="images/IMG_CAPA.jpg" alt="Segundo slide">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="images/copia.jpg" alt="Terceiro slide">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="images/oscar-menswear-banner-principal.png" alt="Quarto slide">
+                            </div>
                         </div>
 
-                        <!-- Controles do segundo carrossel -->
-                        <a class="carousel-control-prev" href="#carousel2" role="button" data-slide="prev">
-                            <i class="bi bi-caret-left-fill" style="font-size: 2rem;"></i>
+                        <!-- Controles do carrossel -->
+                        <a class="carousel-control-prev" href="#carouselPropaganda" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                             <span class="sr-only">Anterior</span>
                         </a>
-                        <a class="carousel-control-next" href="#carousel2" role="button" data-slide="next">
-                            <i class="bi bi-caret-right-fill" style="font-size: 2rem;"></i>
+                        <a class="carousel-control-next" href="#carouselPropaganda" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
                             <span class="sr-only">Próximo</span>
                         </a>
                     </div>
                 </div>
+
+            </div>
+
+        </div>
+
+        <div class="container-classificacao">
+            <div class="row">
+                <div class="col-sm-3" class="classificacao">
+                    <button class="btn-classificacao">
+                        <img src="icons/icons8-coroa-94.png" alt="">
+                    </button>
+                    <button class="btn-classificacao">
+                        <img src="icons/icons8-emoji-troféu-96.png" alt="">
+                    </button>
+                    <button class="btn-classificacao">
+                        <img src="icons/icons8-foguete-emji-96.png" alt="">
+                    </button>
+                    <button class="btn-classificacao">
+                        <img src="icons/icons8-tênis-96.png" alt="">
+                    </button>
+
+                    <button type="button" class="btn btn-primary btn-3d">Seguir</button>
+                    <button type="button" class="btn btn-secondary btn-3d">Enviar mensagem</button>
+
+                    <button class="btn-classificacao">
+                        <i class="fa-solid fa-ellipsis"></i>
+                    </button>
+
+                </div>
+                <div class="col-sm-9">
+                    <div id="wrapper">
+                        <div id="carousel">
+                            <div id="content">
+                                <button class="btn" data-target="#offerCarousel" data-slide="next">
+                                    <i class="bi bi-percent"></i>
+                                    <span class="button-text">Todas as ofertas</span>
+                                </button>
+                                <button class="btn" data-target="#offerCarousel" data-slide="next">
+                                    <i class="bi bi-lightning"></i>
+                                    <span class="button-text">Ofertas relâmpago</span>
+                                </button>
+                                <button class="btn" data-target="#offerCarousel" data-slide="next">
+                                    <i class="bi bi-megaphone"></i>
+                                    <span class="button-text">Salvos</span>
+                                </button>
+                                <button class="btn" data-target="#offerCarousel" data-slide="next">
+                                    <i class="bi bi-bag-heart"></i>
+                                    <span class="button-text">Outlet</span>
+                                </button>
+                                <button class="btn" data-target="#offerCarousel" data-slide="next">
+                                    <i class="fa-solid fa-brazilian-real-sign"></i>
+                                    <span class="button-text">Menos de R$100</span>
+                                </button>
+                                <button class="btn" data-target="#offerCarousel" data-slide="next">
+                                    <i class="bi bi-percent"></i>
+                                    <span class="button-text">Promoções de Verão</span>
+                                </button>
+                                <button class="btn" data-target="#offerCarousel" data-slide="next">
+                                    <i class="bi bi-lightning"></i>
+                                    <span class="button-text">Descontos Exclusivos</span>
+                                </button>
+                                <button class="btn" data-target="#offerCarousel" data-slide="next">
+                                    <i class="bi bi-megaphone"></i>
+                                    <span class="button-text">Novidades</span>
+                                </button>
+                                <button class="btn" data-target="#offerCarousel" data-slide="next">
+                                    <i class="bi bi-bag-heart"></i>
+                                    <span class="button-text">Novos Itens</span>
+                                </button>
+                                <button class="btn" data-target="#offerCarousel" data-slide="next">
+                                    <i class="fa-solid fa-brazilian-real-sign"></i>
+                                    <span class="button-text">Até R$50</span>
+                                </button>
+                                <button class="btn" data-target="#offerCarousel" data-slide="next">
+                                    <i class="fa-solid fa-brazilian-real-sign"></i>
+                                    <span class="button-text">Até R$50</span>
+                                </button>
+                                <button class="btn" data-target="#offerCarousel" data-slide="next">
+                                    <i class="fa-solid fa-brazilian-real-sign"></i>
+                                    <span class="button-text">Até R$50</span>
+                                </button>
+                                <button class="btn" data-target="#offerCarousel" data-slide="next">
+                                    <i class="fa-solid fa-brazilian-real-sign"></i>
+                                    <span class="button-text">Até R$50</span>
+                                </button>
+                            </div>
+                        </div>
+                        <button id="prev">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="24"
+                                height="24"
+                                viewBox="0 0 24 24">
+                                <path fill="none" d="M0 0h24v24H0V0z" />
+                                <path d="M15.61 7.41L14.2 6l-6 6 6 6 1.41-1.41L11.03 12l4.58-4.59z" />
+                            </svg>
+                        </button>
+                        <button id="next">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="24"
+                                height="24"
+                                viewBox="0 0 24 24">
+                                <path fill="none" d="M0 0h24v24H0V0z" />
+                                <path d="M10.02 6L8.61 7.41 13.19 12l-4.58 4.59L10.02 18l6-6-6-6z" />
+                            </svg>
+                        </button>
+                    </div>
+                </div>
             </div>
         </div>
+
     </header>
 
     <section>
-        <nav>
-            <ul>
-                <li><a href="#">London</a></li>
-                <li><a href="#">Paris</a></li>
-                <li><a href="#">Tokyo</a></li>
-            </ul>
-        </nav>
+        <article id="produtos-content">
+            <!-- Botões de cabeçalho (por exemplo, para ações globais) -->
+            <div class="row">
+                <div class="col-12">
+                    <div class="buttons-header">
+                        <button class="btn-header">
+                            <i class="bi bi-bag-heart"></i>
+                        </button>
+                        <button class="btn-header">
+                            <i class="bi bi-pen-fill"></i>
+                        </button>
+                        <button class="btn-header">
+                            <i class="bi bi-file-earmark-play"></i>
+                        </button>
+                        <button class="btn-header">
+                            <i class="fa-solid fa-bookmark"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
 
-        <article>
-            <h1>London</h1>
-            <p>London is the capital city of England. It is the most populous city in the United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
-            <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
+            <!-- Produtos -->
+            <div class="row">
+                <!-- Produto 1 -->
+                <div class="col-12 col-md-3">
+                    <div class="image-container">
+                        <div class="card">
+                            <div class="card-front">
+                                <img class="d-block w-100" src="images/escova.webp" alt="">
+                            </div>
+                            <div class="card-back">
+                                <div class="product-info">
+                                    <h5>Camisa Estilosa</h5>
+                                    <p class="price">R$ 79,99</p>
+                                    <button class="btn-cart">
+                                        <i class="fa-solid fa-cart-shopping"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="buttons-container">
+                            <button class="btn-heart"><i class="fa-regular fa-heart"></i></button>
+                            <button class="btn-heart"><i class="fa-regular fa-message"></i></button>
+                            <button class="btn-heart"><i class="fa-solid fa-paper-plane"></i></button>
+                            <button class="btn-bookmark"><i class="fa-solid fa-bookmark"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Produto 2 -->
+                <div class="col-12 col-md-3">
+                    <div class="image-container">
+                        <div class="card">
+                            <div class="card-front">
+                                <img class="d-block w-100" src="images/337438-300x300.jpg.webp" alt="">
+                            </div>
+                            <div class="card-back">
+                                <div class="product-info">
+                                    <h5>Camisa Estilosa</h5>
+                                    <p class="price">R$ 79,99</p>
+                                    <button class="btn-cart">
+                                        <i class="fa-solid fa-cart-shopping"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="buttons-container">
+                            <button class="btn-heart"><i class="fa-regular fa-heart"></i></button>
+                            <button class="btn-heart"><i class="fa-regular fa-message"></i></button>
+                            <button class="btn-heart"><i class="fa-solid fa-paper-plane"></i></button>
+                            <button class="btn-bookmark"><i class="fa-solid fa-bookmark"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Produto 3 -->
+                <div class="col-12 col-md-3">
+                    <div class="image-container">
+                        <div class="card">
+                            <div class="card-front">
+                                <img class="d-block w-100" src="images/escova.webp" alt="">
+                            </div>
+                            <div class="card-back">
+                                <div class="product-info">
+                                    <h5>Camisa Estilosa</h5>
+                                    <p class="price">R$ 79,99</p>
+                                    <button class="btn-cart">
+                                        <i class="fa-solid fa-cart-shopping"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="buttons-container">
+                            <button class="btn-heart"><i class="fa-regular fa-heart"></i></button>
+                            <button class="btn-heart"><i class="fa-regular fa-message"></i></button>
+                            <button class="btn-heart"><i class="fa-solid fa-paper-plane"></i></button>
+                            <button class="btn-bookmark"><i class="fa-solid fa-bookmark"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Produto 4 -->
+                <div class="col-12 col-md-3">
+                    <div class="image-container">
+                        <div class="card">
+                            <div class="card-front">
+                                <img class="d-block w-100" src="images/combo.webp" alt="">
+                            </div>
+                            <div class="card-back">
+                                <div class="product-info">
+                                    <h5>Camisa Estilosa</h5>
+                                    <p class="price">R$ 79,99</p>
+                                    <button class="btn-cart">
+                                        <i class="fa-solid fa-cart-shopping"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="buttons-container">
+                            <button class="btn-heart"><i class="fa-regular fa-heart"></i></button>
+                            <button class="btn-heart"><i class="fa-regular fa-message"></i></button>
+                            <button class="btn-heart"><i class="fa-solid fa-paper-plane"></i></button>
+                            <button class="btn-bookmark"><i class="fa-solid fa-bookmark"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Produto 4 -->
+                <div class="col-12 col-md-3">
+                    <div class="image-container">
+                        <div class="card">
+                            <div class="card-front">
+                                <img class="d-block w-100" src="images/MIRRA-COM-CANNISTER.png" alt="">
+                            </div>
+                            <div class="card-back">
+                                <div class="product-info">
+                                    <h5>Camisa Estilosa</h5>
+                                    <p class="price">R$ 79,99</p>
+                                    <button class="btn-cart">
+                                        <i class="fa-solid fa-cart-shopping"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="buttons-container">
+                            <button class="btn-heart"><i class="fa-regular fa-heart"></i></button>
+                            <button class="btn-heart"><i class="fa-regular fa-message"></i></button>
+                            <button class="btn-heart"><i class="fa-solid fa-paper-plane"></i></button>
+                            <button class="btn-bookmark"><i class="fa-solid fa-bookmark"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </article>
     </section>
 
-    <footer>
-        <p>Footer</p>
-    </footer>
 
 </body>
 
 </html>
 
-
 <script>
-    // Desabilitar o comportamento automático no segundo carrossel
-    $('#carousel').carousel({
-        interval: false // Desativa a rotação automática
+    const gap = 16;
+
+    const carousel = document.getElementById("carousel"),
+        content = document.getElementById("content"),
+        next = document.getElementById("next"),
+        prev = document.getElementById("prev");
+
+    next.addEventListener("click", e => {
+        carousel.scrollBy(width + gap, 0);
+        if (carousel.scrollWidth !== 0) {
+            prev.style.display = "flex";
+        }
+        if (content.scrollWidth - width - gap <= carousel.scrollLeft + width) {
+            next.style.display = "none";
+        }
+    });
+    prev.addEventListener("click", e => {
+        carousel.scrollBy(-(width + gap), 0);
+        if (carousel.scrollLeft - width - gap <= 0) {
+            prev.style.display = "none";
+        }
+        if (!content.scrollWidth - width - gap <= carousel.scrollLeft + width) {
+            next.style.display = "flex";
+        }
     });
 
-    // Configurar os botões de navegação
-    $('#carousel.carousel-control-prev').click(function() {
-        $('#carousel').carousel('prev');
-    });
-
-    $('#carousel.carousel-control-next').click(function() {
-        $('#carousel').carousel('next');
-    });
+    let width = carousel.offsetWidth;
+    window.addEventListener("resize", e => (width = carousel.offsetWidth));
 </script>
