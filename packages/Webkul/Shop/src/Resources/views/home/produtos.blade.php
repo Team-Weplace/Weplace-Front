@@ -34,7 +34,8 @@
                         <i class="fa-solid fa-paper-plane"></i>
                     </button>
                     <button class="custom-btn">
-                        <i class="fa-solid fa-medal fa-beat"></i>
+                        <i class="fa-solid fa-medal fa-beat" style="color: rgb(186, 252, 3);"></i>
+
                     </button>
                 </div>
                 <div class="col-sm-5">
