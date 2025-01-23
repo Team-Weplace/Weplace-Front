@@ -28,13 +28,13 @@
     <header>
         <div class="container-fluid">
             <div class="row">
-                <div class="col-sm-3" class="header-brand">YEBERA PARIS</div>
+                <div class="col-sm-3 custom-column">YEBERA PARIS</div>
                 <div class="col-sm-1">
                     <button class="custom-btn">
                         <i class="fa-solid fa-paper-plane"></i>
                     </button>
                     <button class="custom-btn">
-                        <i class="fa-solid fa-medal fa-beat" style="color: rgb(186, 252, 3);"></i>
+                        <i class="fa-solid fa-medal"></i>
 
                     </button>
                 </div>
@@ -48,198 +48,205 @@
                 </div>
 
                 <div class="col-sm-3">
-                    <button class="btn-custom">
-                        <i class="fa-solid fa-user"></i>
-                    </button>
-                    <button class="btn-custom">
-                        <i class="fa-solid fa-plus"></i>
-                    </button>
-                    <button class="btn-custom">
-                        <i class="fa-solid fa-bars"></i>
-                    </button>
-
-                </div>
-            </div>
-        </div>
-
-        <div class="container-header">
-            <div class="row">
-                <div class="col-sm-2" class="header-brand">
-                    <a href="" class="profile-container">
-                        <img src="images/download (2).png" alt="Foto de Perfil" class="profile-img">
-                    </a>
-                </div>
-                <div class="col-sm-2 custom-container">
-                    <!-- Título com ícone -->
-                    <h1 class="custom-title">
-                        Ybera Paris <i class="fa-solid fa-crown"></i>
-                    </h1>
-
-                    <!-- Informações com número em cima e texto embaixo -->
-                    <div class="information">
-                        <div class="col">
-                            <div>32.300</div>
-                            <div>Seguidores</div>
-                        </div>
-
-                        <div class="col">
-                            <div>322</div>
-                            <div>Postagens</div>
-                        </div>
-                        <div class="col">
-                            <div>102 mil</div>
-                            <div>Curtidas</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-8">
-                    <div id="carouselPropaganda" class="carousel slide" data-ride="carousel">
-                        <!-- Indicadores do carrossel -->
-                        <ol class="carousel-indicators">
-                            <li data-target="#carouselPropaganda" data-slide-to="0" class="active"></li>
-                            <li data-target="#carouselPropaganda" data-slide-to="1"></li>
-                            <li data-target="#carouselPropaganda" data-slide-to="2"></li>
-                            <li data-target="#carouselPropaganda" data-slide-to="3"></li>
-                        </ol>
-
-                        <!-- Conteúdo do carrossel -->
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img class="d-block w-100" src="images/oscar-menswear-banner-principal.png" alt="Primeiro slide">
-                            </div>
-                            <div class="carousel-item">
-                                <img class="d-block w-100" src="images/IMG_CAPA.jpg" alt="Segundo slide">
-                            </div>
-                            <div class="carousel-item">
-                                <img class="d-block w-100" src="images/copia.jpg" alt="Terceiro slide">
-                            </div>
-                            <div class="carousel-item">
-                                <img class="d-block w-100" src="images/oscar-menswear-banner-principal.png" alt="Quarto slide">
-                            </div>
-                        </div>
-
-                        <!-- Controles do carrossel -->
-                        <a class="carousel-control-prev" href="#carouselPropaganda" role="button" data-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Anterior</span>
-                        </a>
-                        <a class="carousel-control-next" href="#carouselPropaganda" role="button" data-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Próximo</span>
-                        </a>
-                    </div>
-                </div>
-
-            </div>
-
-        </div>
-
-        <div class="container-classificacao">
-            <div class="row">
-                <div class="col-sm-3" class="classificacao">
-                    <button class="btn-classificacao">
-                        <img src="icons/icons8-coroa-94.png" alt="">
-                    </button>
-                    <button class="btn-classificacao">
-                        <img src="icons/icons8-emoji-troféu-96.png" alt="">
-                    </button>
-                    <button class="btn-classificacao">
-                        <img src="icons/icons8-foguete-emji-96.png" alt="">
-                    </button>
-                    <button class="btn-classificacao">
-                        <img src="icons/icons8-tênis-96.png" alt="">
-                    </button>
-
-                    <button type="button" class="btn btn-primary btn-3d">Seguir</button>
-                    <button type="button" class="btn btn-secondary btn-3d">Enviar mensagem</button>
-
-                    <button class="btn-classificacao">
-                        <i class="fa-solid fa-ellipsis"></i>
-                    </button>
-
-                </div>
-                <div class="col-sm-9">
-                    <div id="wrapper">
-                        <div id="carousel">
-                            <div id="content">
-                                <button class="btn" data-target="#offerCarousel" data-slide="next">
-                                    <i class="bi bi-percent"></i>
-                                    <span class="button-text">Todas as ofertas</span>
-                                </button>
-                                <button class="btn" data-target="#offerCarousel" data-slide="next">
-                                    <i class="bi bi-lightning"></i>
-                                    <span class="button-text">Ofertas relâmpago</span>
-                                </button>
-                                <button class="btn" data-target="#offerCarousel" data-slide="next">
-                                    <i class="bi bi-megaphone"></i>
-                                    <span class="button-text">Salvos</span>
-                                </button>
-                                <button class="btn" data-target="#offerCarousel" data-slide="next">
-                                    <i class="bi bi-bag-heart"></i>
-                                    <span class="button-text">Outlet</span>
-                                </button>
-                                <button class="btn" data-target="#offerCarousel" data-slide="next">
-                                    <i class="fa-solid fa-brazilian-real-sign"></i>
-                                    <span class="button-text">Menos de R$100</span>
-                                </button>
-                                <button class="btn" data-target="#offerCarousel" data-slide="next">
-                                    <i class="bi bi-percent"></i>
-                                    <span class="button-text">Promoções de Verão</span>
-                                </button>
-                                <button class="btn" data-target="#offerCarousel" data-slide="next">
-                                    <i class="bi bi-lightning"></i>
-                                    <span class="button-text">Descontos Exclusivos</span>
-                                </button>
-                                <button class="btn" data-target="#offerCarousel" data-slide="next">
-                                    <i class="bi bi-megaphone"></i>
-                                    <span class="button-text">Novidades</span>
-                                </button>
-                                <button class="btn" data-target="#offerCarousel" data-slide="next">
-                                    <i class="bi bi-bag-heart"></i>
-                                    <span class="button-text">Novos Itens</span>
-                                </button>
-                                <button class="btn" data-target="#offerCarousel" data-slide="next">
-                                    <i class="fa-solid fa-brazilian-real-sign"></i>
-                                    <span class="button-text">Até R$50</span>
-                                </button>
-                                <button class="btn" data-target="#offerCarousel" data-slide="next">
-                                    <i class="fa-solid fa-brazilian-real-sign"></i>
-                                    <span class="button-text">Até R$50</span>
-                                </button>
-                                <button class="btn" data-target="#offerCarousel" data-slide="next">
-                                    <i class="fa-solid fa-brazilian-real-sign"></i>
-                                    <span class="button-text">Até R$50</span>
-                                </button>
-                                <button class="btn" data-target="#offerCarousel" data-slide="next">
-                                    <i class="fa-solid fa-brazilian-real-sign"></i>
-                                    <span class="button-text">Até R$50</span>
-                                </button>
-                            </div>
-                        </div>
-                        <button id="prev">
-                            <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                width="24"
-                                height="24"
-                                viewBox="0 0 24 24">
-                                <path fill="none" d="M0 0h24v24H0V0z" />
-                                <path d="M15.61 7.41L14.2 6l-6 6 6 6 1.41-1.41L11.03 12l4.58-4.59z" />
-                            </svg>
+                    <div class="btn-container">
+                        <button class="btn-custom">
+                            <i class="fa-solid fa-user"></i>
                         </button>
-                        <button id="next">
-                            <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                width="24"
-                                height="24"
-                                viewBox="0 0 24 24">
-                                <path fill="none" d="M0 0h24v24H0V0z" />
-                                <path d="M10.02 6L8.61 7.41 13.19 12l-4.58 4.59L10.02 18l6-6-6-6z" />
-                            </svg>
+                        <button class="btn-custom">
+                            <i class="fa-solid fa-plus"></i>
+                        </button>
+                        <button class="btn-custom">
+                            <i class="fa-solid fa-bars"></i>
                         </button>
                     </div>
                 </div>
             </div>
-        </div>
+
+            <div class="container-header">
+                <div class="row">
+                    <div class="col-sm-2" class="header-brand">
+                        <a href="" class="profile-container">
+                            <img src="images/download (2).png" alt="Foto de Perfil" class="profile-img">
+                        </a>
+                        <div><Strong>Ybera Paris</Strong></div>
+                        <div>Beleza, cosméticos e cuidados pessoais </div>
+                        <div>Made for Succes</div>
+                        <div>Presente em mais de 50 países <img src="icons/icons8-terra-32.png" alt="" class="earth-icon"></div>
+                        <div>Uma marca do <a href="https://www.instagram.com/grupoyberaprais/" target="_blank">@grupoyberaparis</a></div>
+                        <div>Compre aqui <a href="https://bit.ly/3BFrtCw" target="_blank">bit.ly/3BFrtCw</a></div>
+
+                    </div>
+                    <div class="col-sm-3 custom-container">
+                        <!-- Título com ícone -->
+                        <h1 class="custom-title">
+                            Ybera Paris <i class="fa-solid fa-crown"></i>
+                        </h1>
+
+                        <!-- Informações com número em cima e texto embaixo -->
+                        <div class="information">
+                            <div class="col">
+                                <div>32.300</div>
+                                <div>Seguidores</div>
+                            </div>
+
+                            <div class="col">
+                                <div>322</div>
+                                <div>Postagens</div>
+                            </div>
+                            <div class="col">
+                                <div>102 mil</div>
+                                <div>Curtidas</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-7">
+                        <div id="carouselPropaganda" class="carousel slide" data-ride="carousel">
+                            <!-- Indicadores do carrossel -->
+                            <ol class="carousel-indicators">
+                                <li data-target="#carouselPropaganda" data-slide-to="0" class="active"></li>
+                                <li data-target="#carouselPropaganda" data-slide-to="1"></li>
+                                <li data-target="#carouselPropaganda" data-slide-to="2"></li>
+                                <li data-target="#carouselPropaganda" data-slide-to="3"></li>
+                            </ol>
+
+                            <!-- Conteúdo do carrossel -->
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img class="d-block w-100" src="images/oscar-menswear-banner-principal.png" alt="Primeiro slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="images/IMG_CAPA.jpg" alt="Segundo slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="images/copia.jpg" alt="Terceiro slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="images/oscar-menswear-banner-principal.png" alt="Quarto slide">
+                                </div>
+                            </div>
+
+                            <!-- Controles do carrossel -->
+                            <a class="carousel-control-prev" href="#carouselPropaganda" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Anterior</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselPropaganda" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Próximo</span>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="container-classificacao">
+                <div class="row">
+                    <div class="col-sm-3" class="classificacao">
+                        <button class="btn-classificacao">
+                            <img src="icons/icons8-coroa-94.png" alt="">
+                        </button>
+                        <button class="btn-classificacao">
+                            <img src="icons/icons8-emoji-troféu-96.png" alt="">
+                        </button>
+                        <button class="btn-classificacao">
+                            <img src="icons/icons8-foguete-emji-96.png" alt="">
+                        </button>
+                        <button class="btn-classificacao">
+                            <img src="icons/icons8-tênis-96.png" alt="">
+                        </button>
+
+                        <button type="button" class="btn btn-primary btn-3d">Seguir</button>
+                        <button type="button" class="btn btn-secondary btn-3d">Enviar mensagem</button>
+
+                        <button class="btn-classificacao">
+                            <i class="fa-solid fa-ellipsis"></i>
+                        </button>
+
+                    </div>
+                    <div class="col-sm-9">
+                        <div id="wrapper">
+                            <div id="carousel">
+                                <div id="content">
+                                    <button class="btn" data-target="#offerCarousel" data-slide="next">
+                                        <i class="bi bi-percent"></i>
+                                        <span class="button-text">Todas as ofertas</span>
+                                    </button>
+                                    <button class="btn" data-target="#offerCarousel" data-slide="next">
+                                        <i class="bi bi-lightning"></i>
+                                        <span class="button-text">Ofertas relâmpago</span>
+                                    </button>
+                                    <button class="btn" data-target="#offerCarousel" data-slide="next">
+                                        <i class="bi bi-megaphone"></i>
+                                        <span class="button-text">Salvos</span>
+                                    </button>
+                                    <button class="btn" data-target="#offerCarousel" data-slide="next">
+                                        <i class="bi bi-bag-heart"></i>
+                                        <span class="button-text">Outlet</span>
+                                    </button>
+                                    <button class="btn" data-target="#offerCarousel" data-slide="next">
+                                        <i class="fa-solid fa-brazilian-real-sign"></i>
+                                        <span class="button-text">Menos de R$100</span>
+                                    </button>
+                                    <button class="btn" data-target="#offerCarousel" data-slide="next">
+                                        <i class="bi bi-percent"></i>
+                                        <span class="button-text">Promoções de Verão</span>
+                                    </button>
+                                    <button class="btn" data-target="#offerCarousel" data-slide="next">
+                                        <i class="bi bi-lightning"></i>
+                                        <span class="button-text">Descontos Exclusivos</span>
+                                    </button>
+                                    <button class="btn" data-target="#offerCarousel" data-slide="next">
+                                        <i class="bi bi-megaphone"></i>
+                                        <span class="button-text">Novidades</span>
+                                    </button>
+                                    <button class="btn" data-target="#offerCarousel" data-slide="next">
+                                        <i class="bi bi-bag-heart"></i>
+                                        <span class="button-text">Novos Itens</span>
+                                    </button>
+                                    <button class="btn" data-target="#offerCarousel" data-slide="next">
+                                        <i class="fa-solid fa-brazilian-real-sign"></i>
+                                        <span class="button-text">Até R$50</span>
+                                    </button>
+                                    <button class="btn" data-target="#offerCarousel" data-slide="next">
+                                        <i class="fa-solid fa-brazilian-real-sign"></i>
+                                        <span class="button-text">Até R$50</span>
+                                    </button>
+                                    <button class="btn" data-target="#offerCarousel" data-slide="next">
+                                        <i class="fa-solid fa-brazilian-real-sign"></i>
+                                        <span class="button-text">Até R$50</span>
+                                    </button>
+                                    <button class="btn" data-target="#offerCarousel" data-slide="next">
+                                        <i class="fa-solid fa-brazilian-real-sign"></i>
+                                        <span class="button-text">Até R$50</span>
+                                    </button>
+                                </div>
+                            </div>
+                            <button id="prev">
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="24"
+                                    height="24"
+                                    viewBox="0 0 24 24">
+                                    <path fill="none" d="M0 0h24v24H0V0z" />
+                                    <path d="M15.61 7.41L14.2 6l-6 6 6 6 1.41-1.41L11.03 12l4.58-4.59z" />
+                                </svg>
+                            </button>
+                            <button id="next">
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="24"
+                                    height="24"
+                                    viewBox="0 0 24 24">
+                                    <path fill="none" d="M0 0h24v24H0V0z" />
+                                    <path d="M10.02 6L8.61 7.41 13.19 12l-4.58 4.59L10.02 18l6-6-6-6z" />
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
     </header>
 
@@ -250,16 +257,16 @@
                 <div class="col-12">
                     <div class="buttons-header">
                         <button class="btn-header">
-                            <i class="bi bi-bag-heart"></i>
+                            <img src="icons/icons8-sacolas-de-compras-96.png" alt="">
                         </button>
                         <button class="btn-header">
-                            <i class="bi bi-pen-fill"></i>
+                            <img src="icons/icons8-caneta-esferográfica-96.png" alt="">
                         </button>
                         <button class="btn-header">
-                            <i class="bi bi-file-earmark-play"></i>
+                            <img src="icons/icons8-vídeo-96.png" alt="">
                         </button>
                         <button class="btn-header">
-                            <i class="fa-solid fa-bookmark"></i>
+                            <img src="icons/icons8-fita-de-bookmark-96.png" alt="">
                         </button>
                     </div>
                 </div>
