@@ -266,7 +266,7 @@
                             <img src="icons/icons8-vídeo-96.png" alt="">
                         </button>
                         <button class="btn-header">
-                            <img src="icons/icons8-fita-de-bookmark-96.png" alt="">
+                            <img src="icons/3dicons-bookmark-front-color.png" alt="">
                         </button>
                     </div>
                 </div>
