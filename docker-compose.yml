@@ -1,0 +1,26 @@
+services:
+    projeto-weplace:
+       build:
+           context: .
+       container_name: projeto-weplace
+       hostname: projeto-weplace
+       volumes:
+           - ./:/var/www/html
+       ports:
+           - '27000:80'
+#       networks:
+#           - 2easy-network
+    mysql-weplace:
+       image: mysql:8.0.30
+       restart: unless-stopped
+       tty: true
+       container_name: mysql-weplace
+       environment:
+           MYSQL_DATABASE: 'mysql_weplace'
+           MYSQL_ROOT_PASSWORD: 'teste'
+           SERVICE_TAGS: 'dev'
+           SERVICE_NAME: 'mysql'
+       ports:
+           - 3306:3306
+       volumes:
+           - /opt/mysql_data:/var/lib/mysql
