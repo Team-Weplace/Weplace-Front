@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="css/index.css">
     <script src="js/index.js"></script>
 
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
@@ -25,13 +24,15 @@
             window.open("https://www.google.com/maps?q=40.748817,-73.985428", "_blank"); // Exemplo com coordenadas de Nova York
         }
     </script>
+    <link rel="stylesheet" href="css/index.css">
 </head>
 
 <body style="background-color: rgb(255, 255, 255);">
     <!-- Container dos menus -->
     <div class="menu-container">
         <div class="logo">
-            <img src="icons/logo.png" alt="Logo" class="logo">
+            <img src="/icons/logo.png" alt="Logo" class="logo">
+
         </div>
         <div class="button-container">
             <i class="fa-solid fa-bars btn-tra" id="menu-toggle"></i>
@@ -42,7 +43,8 @@
             <i class="fa-solid fa-times menu-close" id="close-menu"></i>
 
             <div class="logo">
-                <img src="icons/logo.png" alt="Logo" class="logo">
+                <img src="/icons/logo.png" alt="Logo" class="logo">
+
             </div>
             <ul>
                 <li><a href="{{ route('perfil-Lojista') }}">Home</a></li>
@@ -116,7 +118,7 @@
             <button class="footer-btn btn-1" onclick="window.location.href='{{ route('produtos') }}'"><i class="fa-solid fa-house"></i></button>
 
             <button class="footer-btn btn-2" onclick="startLiveStream()">
-                <i class="fa-solid fa-video"></i> 
+                <i class="fa-solid fa-video"></i>
             </button>
 
             <button class="footer-btn btn-3">
