@@ -5,6 +5,7 @@ use App\Http\Controllers\PerfilBoasVindasController;
 use App\Http\Controllers\PerfilLojistaController;
 use App\Http\Controllers\IndexController;
 use App\Http\Controllers\ProdutosController;
+use App\Http\Controllers\PaginaHome;
 /**
  * Store front routes.
  */
@@ -24,6 +25,7 @@ require 'checkout-routes.php';
 Route::get('/Index', [IndexController::class, 'index'])->name('index');
 Route::get('/produtos', [ProdutosController::class, 'index'])->name('produtos');
 Route::get('/perfil-Lojista', [PerfilLojistaController::class, 'index'])->name('perfil-Lojista');
+Route::get('/pagina-home', [PaginaHome::class, 'index'])->name('pagina-home');
 
 
 

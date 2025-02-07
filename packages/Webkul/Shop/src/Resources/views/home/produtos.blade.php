@@ -38,7 +38,7 @@
 
                     </button>
                 </div>
-                <div class="col-sm-5">
+                <div class="col-sm-5 search-container">
                     <div class="input-group">
                         <input type="text" class="form-control" placeholder="Buscar..." aria-label="Buscar">
                         <button class="input-group-text">
