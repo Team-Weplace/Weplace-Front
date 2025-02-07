@@ -4,10 +4,10 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class ProdutosController extends Controller
+class PerfilController extends Controller
 {
     public function index()
     {
-        return view('shop::home.produtos');
+        return view('shop::home.perfil');
     }
 }

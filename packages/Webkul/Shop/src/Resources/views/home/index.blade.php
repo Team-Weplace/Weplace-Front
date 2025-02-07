@@ -18,13 +18,7 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
-    <!-- Adicionando o JavaScript para abrir o mapa -->
-    <script>
-        function openMap() {
-            // Redireciona para o Google Maps com uma localização específica
-            window.open("https://www.google.com/maps?q=40.748817,-73.985428", "_blank"); // Exemplo com coordenadas de Nova York
-        }
-    </script>
+   
 </head>
 
 <body style="background-color: rgb(255, 255, 255);">
@@ -47,7 +41,7 @@
                 <img class="logo" src="images/logo.png" alt="Logo">
             </div>
             <ul>
-                <li><a href="{{ route('perfil-Lojista') }}">Home</a></li>
+                <li><a href="#">Home</a></li>
                 <li><a href="#">Sobre</a></li>
                 <li><a href="#">Serviços</a></li>
                 <li><a href="#">Contato</a></li>
@@ -62,10 +56,10 @@
             </button>
         </div>
 
-        <div class="button-container">
+        <!-- <div class="button-container">
             <!-- Botão que abre o mapa -->
-            <i class="fa-solid fa-map-location btn-loc" onclick="openMap()"></i>
-        </div>
+
+        <!-- </div> -->
 
         <!-- Segundo menu -->
         <nav class="second">
@@ -73,7 +67,7 @@
                 <li><a href=""><i class="fa-solid fa-envelope"></i></a></li>
                 <li><a href=""><i class="fa-solid fa-bell"></i></a></li>
                 <li><a href=""><i class="fa-solid fa-comment"></i></a></li>
-                <li><a href=""><i class="fa-solid fa-house"></i></a></li>
+                <li><a href="{{ route('perfil') }}" title="Perfil"><i class="fa-solid fa-user"></i></a></li>
             </ul>
         </nav>
     </div>
@@ -115,23 +109,56 @@
     </div>
 
     <footer>
-        <div class="footer-buttons">
-            <button class="footer-btn btn-1" onclick="window.location.href='{{ route('produtos') }}'"><i class="fa-solid fa-house"></i></button>
+        <div class="cards-container">
+            <article class="cards">
+                <div class="profile-image">
+                    <button class="footer-btn btn-1" onclick="window.location.href='{{ route('pagina-home') }}'">
+                        <i class="fa-solid fa-house"></i>
+                    </button>
+                </div>
+                <h2 class="cards-username">Home</h2>
+            </article>
+            <article class="cards">
+                <div class="profile-image">
+                    <button class="footer-btn btn-2" onclick="window.location.href=''">
+                        <i class="fa-solid fa-video"></i>
+                    </button>
+                </div>
+                <h2 class="cards-username">Lives</h2>
+            </article>
+            <article class="cards">
+                <div class="profile-image">
+                    <button class="footer-btn btn-3" onclick="window.location.href=''">
+                        <i class="fa-solid fa-gear"></i>
+                    </button>
+                </div>
+                <h2 class="cards-username">NFT</h2>
+            </article>
+            <article class="cards">
+                <div class="profile-image">
+                    <button class="footer-btn btn-4" onclick="window.location.href=''">
+                        <i class="fa-solid fa-store"></i>
+                    </button>
+                </div>
+                <h2 class="cards-username">Lojas</h2>
+            </article>
+            <article class="cards">
+                <div class="profile-image">
+                    <button class="footer-btn btn-5" onclick="window.location.href=''">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </button>
+                </div>
+                <h2 class="cards-username">Compras</h2>
+            </article>
 
-            <button class="footer-btn btn-2" onclick="startLiveStream()">
-                <i class="fa-solid fa-video"></i>
-            </button>
-
-            <button class="footer-btn btn-3">
-                <i class="fa-light fa-hexagon-vertical-nft"></i>
-                <span class="nft-text">NFT</span>
-            </button>
-
-            <button class="footer-btn btn-4"><i class="fa-solid fa-store"></i></button>
-            <button class="footer-btn btn-5">
-                <i class="fa-solid fa-cart-shopping"></i>
-            </button>
-
+            <article class="cards">
+                <div class="profile-image">
+                    <button class="footer-btn btn-5" onclick="window.location.href=''">
+                        <i class="fa-solid fa-map-location"></i>
+                    </button>
+                </div>
+                <h2 class="cards-username">Mapa</h2>
+            </article>
         </div>
     </footer>
 </body>
