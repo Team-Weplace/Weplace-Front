@@ -2,10 +2,10 @@
 <html lang="en">
 
 <head>
-    <title>Produtos</title>
+    <title>Perfil</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/produtos.css">
+    <link rel="stylesheet" href="css/perfil.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
 
@@ -35,30 +35,28 @@
                     </button>
                     <button class="custom-btn">
                         <i class="fa-solid fa-medal"></i>
-
                     </button>
                 </div>
                 <div class="col-sm-5 search-container">
                     <div class="input-group">
-                        <input type="text" class="form-control" placeholder="Buscar..." aria-label="Buscar">
-                        <button class="input-group-text">
-                            <i class="fa fa-search"></i>
-                        </button>
+                        <div class="search-container">
+                            <input type="text" id="search" class="search-input" placeholder="Buscar No Weplace">
+                            <button class="search-btn">
+                                <i class="fa-solid fa-search"></i>
+                            </button>
+                        </div>
                     </div>
                 </div>
-
-                <div class="col-sm-3">
-                    <div class="btn-container">
-                        <button class="btn-custom">
-                            <i class="fa-solid fa-user"></i>
-                        </button>
-                        <button class="btn-custom">
-                            <i class="fa-solid fa-plus"></i>
-                        </button>
-                        <button class="btn-custom">
-                            <i class="fa-solid fa-bars"></i>
-                        </button>
-                    </div>
+                <div class="col-sm-2 btn-container">
+                    <button class="btn-custom">
+                        <i class="fa-solid fa-user"></i>
+                    </button>
+                    <button class="btn-custom">
+                        <i class="fa-solid fa-plus"></i>
+                    </button>
+                    <button class="btn-custom">
+                        <i class="fa-solid fa-bars"></i>
+                    </button>
                 </div>
             </div>
 
@@ -85,17 +83,20 @@
                         <!-- Informações com número em cima e texto embaixo -->
                         <div class="information">
                             <div class="col">
-                                <div>32.300</div>
                                 <div>Seguidores</div>
+                                <div>32.300</div>
+
                             </div>
 
                             <div class="col">
-                                <div>322</div>
                                 <div>Postagens</div>
+                                <div>322</div>
+
                             </div>
                             <div class="col">
-                                <div>102 mil</div>
                                 <div>Curtidas</div>
+                                <div>102 mil</div>
+
                             </div>
                         </div>
                     </div>
@@ -277,131 +278,161 @@
                 <!-- Produto 1 -->
                 <div class="col-12 col-md-3">
                     <div class="image-container">
-                        <div class="card">
-                            <div class="card-front">
-                                <img class="d-block w-100" src="images/escova.webp" alt="">
-                            </div>
-                            <div class="card-back">
-                                <div class="product-info">
-                                    <h5>Camisa Estilosa</h5>
-                                    <p class="price">R$ 79,99</p>
-                                    <button class="btn-cart">
-                                        <i class="fa-solid fa-cart-shopping"></i>
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="buttons-container">
-                            <button class="btn-heart"><i class="fa-regular fa-heart"></i></button>
-                            <button class="btn-heart"><i class="fa-regular fa-message"></i></button>
-                            <button class="btn-heart"><i class="fa-solid fa-paper-plane"></i></button>
-                            <button class="btn-bookmark"><i class="fa-solid fa-bookmark"></i></button>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Produto 2 -->
-                <div class="col-12 col-md-3">
-                    <div class="image-container">
-                        <div class="card">
-                            <div class="card-front">
+                        <div class="product-card">
+                            <div class="product-image">
                                 <img class="d-block w-100" src="images/337438-300x300.jpg.webp" alt="">
                             </div>
-                            <div class="card-back">
-                                <div class="product-info">
-                                    <h5>Camisa Estilosa</h5>
-                                    <p class="price">R$ 79,99</p>
-                                    <button class="btn-cart">
-                                        <i class="fa-solid fa-cart-shopping"></i>
-                                    </button>
+                            <div class="product-info">
+                                <h3 class="product-title">Shampoo e Mascara</h3>
+
+                                <div class="product-price">
+                                    <span class="original-price">R$ 78,90</span>
+                                    <span class="discounted-price">R$ 66,27</span>
+                                    <span class="discount">16% OFF</span>
+                                </div>
+                                <div class="installment">
+                                    <span>em 12x R$ 6,50</span>
+                                </div>
+                                <div class="shipping">
+                                    <span class="free-shipping">Frete grátis</span>
+                                    <span class="shipping-detail">por ser sua primeira compra</span>
+                                </div>
+                                <div class="button-icons">
+                                    <button class="btn-heart"><i class="fa-regular fa-heart"></i></button>
+                                    <button class="btn-heart"><i class="fa-regular fa-message"></i></button>
+                                    <button class="btn-heart"><i class="fa-solid fa-paper-plane"></i></button>
+                                    <button class="btn-bookmark"><i class="fa-solid fa-bookmark"></i></button>
                                 </div>
                             </div>
                         </div>
-                        <div class="buttons-container">
-                            <button class="btn-heart"><i class="fa-regular fa-heart"></i></button>
-                            <button class="btn-heart"><i class="fa-regular fa-message"></i></button>
-                            <button class="btn-heart"><i class="fa-solid fa-paper-plane"></i></button>
-                            <button class="btn-bookmark"><i class="fa-solid fa-bookmark"></i></button>
-                        </div>
                     </div>
-                </div>
 
-                <!-- Produto 3 -->
+                </div>
                 <div class="col-12 col-md-3">
                     <div class="image-container">
-                        <div class="card">
-                            <div class="card-front">
-                                <img class="d-block w-100" src="images/escova.webp" alt="">
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img class="d-block w-100" src="images/337438-300x300.jpg.webp" alt="">
                             </div>
-                            <div class="card-back">
-                                <div class="product-info">
-                                    <h5>Camisa Estilosa</h5>
-                                    <p class="price">R$ 79,99</p>
-                                    <button class="btn-cart">
-                                        <i class="fa-solid fa-cart-shopping"></i>
-                                    </button>
+                            <div class="product-info">
+                                <h3 class="product-title">Shampoo e Mascara</h3>
+
+                                <div class="product-price">
+                                    <span class="original-price">R$ 78,90</span>
+                                    <span class="discounted-price">R$ 66,27</span>
+                                    <span class="discount">16% OFF</span>
+                                </div>
+                                <div class="installment">
+                                    <span>em 12x R$ 6,50</span>
+                                </div>
+                                <div class="shipping">
+                                    <span class="free-shipping">Frete grátis</span>
+                                    <span class="shipping-detail">por ser sua primeira compra</span>
+                                </div>
+                                <div class="button-icons">
+                                    <button class="btn-heart"><i class="fa-regular fa-heart"></i></button>
+                                    <button class="btn-heart"><i class="fa-regular fa-message"></i></button>
+                                    <button class="btn-heart"><i class="fa-solid fa-paper-plane"></i></button>
+                                    <button class="btn-bookmark"><i class="fa-solid fa-bookmark"></i></button>
                                 </div>
                             </div>
                         </div>
-                        <div class="buttons-container">
-                            <button class="btn-heart"><i class="fa-regular fa-heart"></i></button>
-                            <button class="btn-heart"><i class="fa-regular fa-message"></i></button>
-                            <button class="btn-heart"><i class="fa-solid fa-paper-plane"></i></button>
-                            <button class="btn-bookmark"><i class="fa-solid fa-bookmark"></i></button>
-                        </div>
                     </div>
-                </div>
 
-                <!-- Produto 4 -->
+                </div>
                 <div class="col-12 col-md-3">
                     <div class="image-container">
-                        <div class="card">
-                            <div class="card-front">
-                                <img class="d-block w-100" src="images/combo.webp" alt="">
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img class="d-block w-100" src="images/337438-300x300.jpg.webp" alt="">
                             </div>
-                            <div class="card-back">
-                                <div class="product-info">
-                                    <h5>Camisa Estilosa</h5>
-                                    <p class="price">R$ 79,99</p>
-                                    <button class="btn-cart">
-                                        <i class="fa-solid fa-cart-shopping"></i>
-                                    </button>
+                            <div class="product-info">
+                                <h3 class="product-title">Shampoo e Mascara</h3>
+
+                                <div class="product-price">
+                                    <span class="original-price">R$ 78,90</span>
+                                    <span class="discounted-price">R$ 66,27</span>
+                                    <span class="discount">16% OFF</span>
+                                </div>
+                                <div class="installment">
+                                    <span>em 12x R$ 6,50</span>
+                                </div>
+                                <div class="shipping">
+                                    <span class="free-shipping">Frete grátis</span>
+                                    <span class="shipping-detail">por ser sua primeira compra</span>
+                                </div>
+                                <div class="button-icons">
+                                    <button class="btn-heart"><i class="fa-regular fa-heart"></i></button>
+                                    <button class="btn-heart"><i class="fa-regular fa-message"></i></button>
+                                    <button class="btn-heart"><i class="fa-solid fa-paper-plane"></i></button>
+                                    <button class="btn-bookmark"><i class="fa-solid fa-bookmark"></i></button>
                                 </div>
                             </div>
                         </div>
-                        <div class="buttons-container">
-                            <button class="btn-heart"><i class="fa-regular fa-heart"></i></button>
-                            <button class="btn-heart"><i class="fa-regular fa-message"></i></button>
-                            <button class="btn-heart"><i class="fa-solid fa-paper-plane"></i></button>
-                            <button class="btn-bookmark"><i class="fa-solid fa-bookmark"></i></button>
-                        </div>
                     </div>
-                </div>
 
-                <!-- Produto 4 -->
+                </div>
                 <div class="col-12 col-md-3">
                     <div class="image-container">
-                        <div class="card">
-                            <div class="card-front">
-                                <img class="d-block w-100" src="images/MIRRA-COM-CANNISTER.png" alt="">
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img class="d-block w-100" src="images/337438-300x300.jpg.webp" alt="">
                             </div>
-                            <div class="card-back">
-                                <div class="product-info">
-                                    <h5>Camisa Estilosa</h5>
-                                    <p class="price">R$ 79,99</p>
-                                    <button class="btn-cart">
-                                        <i class="fa-solid fa-cart-shopping"></i>
-                                    </button>
+                            <div class="product-info">
+                                <h3 class="product-title">Shampoo e Mascara</h3>
+                                <div class="product-price">
+                                    <span class="original-price">R$ 78,90</span>
+                                    <span class="discounted-price">R$ 66,27</span>
+                                    <span class="discount">16% OFF</span>
+                                </div>
+                                <div class="installment">
+                                    <span>em 12x R$ 6,50</span>
+                                </div>
+                                <div class="shipping">
+                                    <span class="free-shipping">Frete grátis</span>
+                                    <span class="shipping-detail">por ser sua primeira compra</span>
+                                </div>
+                                <div class="button-icons">
+                                    <button class="btn-heart"><i class="fa-regular fa-heart"></i></button>
+                                    <button class="btn-heart"><i class="fa-regular fa-message"></i></button>
+                                    <button class="btn-heart"><i class="fa-solid fa-paper-plane"></i></button>
+                                    <button class="btn-bookmark"><i class="fa-solid fa-bookmark"></i></button>
                                 </div>
                             </div>
                         </div>
-                        <div class="buttons-container">
-                            <button class="btn-heart"><i class="fa-regular fa-heart"></i></button>
-                            <button class="btn-heart"><i class="fa-regular fa-message"></i></button>
-                            <button class="btn-heart"><i class="fa-solid fa-paper-plane"></i></button>
-                            <button class="btn-bookmark"><i class="fa-solid fa-bookmark"></i></button>
+                    </div>
+
+                </div>
+                <div class="col-12 col-md-3">
+                    <div class="image-container">
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img class="d-block w-100" src="images/337438-300x300.jpg.webp" alt="">
+                            </div>
+                            <div class="product-info">
+                                <h3 class="product-title">Shampoo e Mascara</h3>
+                                <div class="product-price">
+                                    <span class="original-price">R$ 78,90</span>
+                                    <span class="discounted-price">R$ 66,27</span>
+                                    <span class="discount">16% OFF</span>
+                                </div>
+                                <div class="installment">
+                                    <span>em 12x R$ 6,50</span>
+                                </div>
+                                <div class="shipping">
+                                    <span class="free-shipping">Frete grátis</span>
+                                    <span class="shipping-detail">por ser sua primeira compra</span>
+                                </div>
+                                <div class="button-icons">
+                                    <button class="btn-heart"><i class="fa-regular fa-heart"></i></button>
+                                    <button class="btn-heart"><i class="fa-regular fa-message"></i></button>
+                                    <button class="btn-heart"><i class="fa-solid fa-paper-plane"></i></button>
+                                    <button class="btn-bookmark"><i class="fa-solid fa-bookmark"></i></button>
+                                </div>
+                            </div>
                         </div>
                     </div>
+
                 </div>
             </div>
 
