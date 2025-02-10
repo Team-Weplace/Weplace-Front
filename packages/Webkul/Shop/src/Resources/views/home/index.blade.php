@@ -18,7 +18,7 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
-   
+
 </head>
 
 <body style="background-color: rgb(255, 255, 255);">
@@ -110,9 +110,9 @@
 
     <footer>
         <div class="cards-container">
-            <article class="cards">
+            <article class="cards" onclick="window.location.href='{{ route('pagina-home') }}'">
                 <div class="profile-image">
-                    <button class="footer-btn btn-1" onclick="window.location.href='{{ route('pagina-home') }}'">
+                    <button class="footer-btn btn-1">
                         <i class="fa-solid fa-house"></i>
                     </button>
                 </div>
