@@ -118,47 +118,47 @@
                 </div>
                 <h2 class="cards-username">Home</h2>
             </article>
-            <article class="cards">
-                <div class="profile-image">
-                    <button class="footer-btn btn-2" onclick="window.location.href=''">
-                        <i class="fa-solid fa-video"></i>
-                    </button>
-                </div>
-                <h2 class="cards-username">Lives</h2>
-            </article>
-            <article class="cards">
-                <div class="profile-image">
-                    <button class="footer-btn btn-3" onclick="window.location.href=''">
-                        <i class="fa-solid fa-gear"></i>
-                    </button>
-                </div>
-                <h2 class="cards-username">NFT</h2>
-            </article>
-            <article class="cards">
-                <div class="profile-image">
-                    <button class="footer-btn btn-4" onclick="window.location.href=''">
-                        <i class="fa-solid fa-store"></i>
-                    </button>
-                </div>
-                <h2 class="cards-username">Lojas</h2>
-            </article>
-            <article class="cards">
-                <div class="profile-image">
-                    <button class="footer-btn btn-5" onclick="window.location.href=''">
-                        <i class="fa-solid fa-cart-shopping"></i>
-                    </button>
-                </div>
-                <h2 class="cards-username">Compras</h2>
-            </article>
+            <article class="cards" onclick="window.location.href='{{route('pagina-video')}}'">
+                <div class=" profile-image">
+                <button class="footer-btn btn-2">
+                    <i class="fa-solid fa-video"></i>
+                </button>
+        </div>
+        <h2 class="cards-username">Lives</h2>
+        </article>
+        <article class="cards">
+            <div class="profile-image">
+                <button class="footer-btn btn-3" onclick="window.location.href=''">
+                    <i class="fa-solid fa-gear"></i>
+                </button>
+            </div>
+            <h2 class="cards-username">NFT</h2>
+        </article>
+        <article class="cards">
+            <div class="profile-image">
+                <button class="footer-btn btn-4" onclick="window.location.href=''">
+                    <i class="fa-solid fa-store"></i>
+                </button>
+            </div>
+            <h2 class="cards-username">Lojas</h2>
+        </article>
+        <article class="cards">
+            <div class="profile-image">
+                <button class="footer-btn btn-5" onclick="window.location.href=''">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </button>
+            </div>
+            <h2 class="cards-username">Compras</h2>
+        </article>
 
-            <article class="cards">
-                <div class="profile-image">
-                    <button class="footer-btn btn-5" onclick="window.location.href=''">
-                        <i class="fa-solid fa-map-location"></i>
-                    </button>
-                </div>
-                <h2 class="cards-username">Mapa</h2>
-            </article>
+        <article class="cards">
+            <div class="profile-image">
+                <button class="footer-btn btn-5" onclick="window.location.href=''">
+                    <i class="fa-solid fa-map-location"></i>
+                </button>
+            </div>
+            <h2 class="cards-username">Mapa</h2>
+        </article>
         </div>
     </footer>
 </body>

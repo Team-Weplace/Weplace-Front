@@ -6,6 +6,7 @@ use App\Http\Controllers\PerfilLojistaController;
 use App\Http\Controllers\IndexController;
 use App\Http\Controllers\PerfilController;
 use App\Http\Controllers\PaginaHome;
+use App\Http\Controllers\PaginaVideoController;
 /**
  * Store front routes.
  */
@@ -25,6 +26,7 @@ require 'checkout-routes.php';
 Route::get('/Index', [IndexController::class, 'index'])->name('index');
 Route::get('/perfil', [PerfilController::class, 'index'])->name('perfil');
 Route::get('/pagina-home', [PaginaHome::class, 'index'])->name('pagina-home');
+Route::get('/pagina-video', [PaginaVideoController::class, 'index'])->name('pagina-video');
 
 
 
