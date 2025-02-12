@@ -47,8 +47,6 @@
         </nav>
 
 
-
-
         <div class="content">
             <header>
                 <div class="container">
@@ -81,6 +79,7 @@
 
             <!-- Carrossel -->
             <div class="col">
+                
                 <div id="carouselPropaganda" class="carousel slide" data-ride="carousel">
                     <!-- Conteúdo do carrossel -->
                     <div class="carousel-inner">
