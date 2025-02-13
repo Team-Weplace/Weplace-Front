@@ -97,9 +97,21 @@
                     Compre aqui <a href="https://bit.ly/3BFrtCw" target="_blank">bit.ly/3BFrtCw</a>
                 </div>
             </div>
+            <div class="profile-buttons">
+                <button class="btn-follow">
+                    <i class="fa-solid fa-user-plus"></i> Seguir
+                </button>
+                <button class="btn-share">
+                    <i class="fa-solid fa-share"></i> Compartilhar
+                </button>
+                <button class="btn-favorite">
+                    <i class="fa-solid fa-heart"></i> Favoritar
+                </button>
+            </div>
         </div>
 
-        <!-- Carrossel -->
+
+        <!-- Conteúdo do carrossel -->
         <div id="carouselPropaganda" class="carousel slide" data-ride="carousel">
             <!-- Indicadores do carrossel -->
             <ol class="carousel-indicators">
@@ -109,7 +121,6 @@
                 <li data-target="#carouselPropaganda" data-slide-to="3"></li>
             </ol>
 
-            <!-- Conteúdo do carrossel -->
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img class="d-block w-100" src="images/oscar-menswear-banner-principal.png" alt="Primeiro slide">
@@ -137,121 +148,62 @@
         </div>
     </div>
 
-    <!-- 
-            <div class="container-classificacao">
-                <div class="row">
-                    <div class="col-sm-3" class="classificacao">
-                        <button class="btn-classificacao">
-                            <img src="images/3dicons-trophy-front-color.png">
-                        </button>
-                        <button class="btn-classificacao">
-                            <img src="images/3dicons-crown-front-color.png" alt="">
-                        </button>
-                        <button class="btn-classificacao">
-                            <img src="images/3dicons-rocket-front-color.png" alt="">
-                        </button>
-                        <button class="btn-classificacao">
-                            <img src="images/3dicons-notify-heart-dynamic-color.png" alt="">
-                        </button> <br>
 
-                        <button type="button" class="btn btn-primary btn-3d">Seguir</button>
-                        <button type="button" class="btn btn-secondary btn-3d">Enviar mensagem</button>
-
-                        <button class="btn-classificacao">
-                            <i class="fa-solid fa-ellipsis"></i>
-                        </button>
-
-                    </div>
-                    <div class="col-sm-9">
-                        <div id="wrapper">
-                            <div id="carousel">
-                                <div id="content">
-                                    <button class="btn" data-target="#offerCarousel" data-slide="next">
-                                        <i class="bi bi-percent"></i>
-                                        <span class="button-text">Todas as ofertas</span>
-                                    </button>
-                                    <button class="btn" data-target="#offerCarousel" data-slide="next">
-                                        <i class="bi bi-lightning"></i>
-                                        <span class="button-text">Ofertas relâmpago</span>
-                                    </button>
-                                    <button class="btn" data-target="#offerCarousel" data-slide="next">
-                                        <i class="bi bi-megaphone"></i>
-                                        <span class="button-text">Salvos</span>
-                                    </button>
-                                    <button class="btn" data-target="#offerCarousel" data-slide="next">
-                                        <i class="bi bi-bag-heart"></i>
-                                        <span class="button-text">Outlet</span>
-                                    </button>
-                                    <button class="btn" data-target="#offerCarousel" data-slide="next">
-                                        <i class="fa-solid fa-brazilian-real-sign"></i>
-                                        <span class="button-text">Menos de R$100</span>
-                                    </button>
-                                    <button class="btn" data-target="#offerCarousel" data-slide="next">
-                                        <i class="bi bi-percent"></i>
-                                        <span class="button-text">Promoções de Verão</span>
-                                    </button>
-                                    <button class="btn" data-target="#offerCarousel" data-slide="next">
-                                        <i class="bi bi-lightning"></i>
-                                        <span class="button-text">Descontos Exclusivos</span>
-                                    </button>
-                                    <button class="btn" data-target="#offerCarousel" data-slide="next">
-                                        <i class="bi bi-megaphone"></i>
-                                        <span class="button-text">Novidades</span>
-                                    </button>
-                                    <button class="btn" data-target="#offerCarousel" data-slide="next">
-                                        <i class="bi bi-bag-heart"></i>
-                                        <span class="button-text">Novos Itens</span>
-                                    </button>
-                                    <button class="btn" data-target="#offerCarousel" data-slide="next">
-                                        <i class="fa-solid fa-brazilian-real-sign"></i>
-                                        <span class="button-text">Até R$50</span>
-                                    </button>
-                                    <button class="btn" data-target="#offerCarousel" data-slide="next">
-                                        <i class="fa-solid fa-brazilian-real-sign"></i>
-                                        <span class="button-text">Até R$50</span>
-                                    </button>
-                                    <button class="btn" data-target="#offerCarousel" data-slide="next">
-                                        <i class="fa-solid fa-brazilian-real-sign"></i>
-                                        <span class="button-text">Até R$50</span>
-                                    </button>
-                                    <button class="btn" data-target="#offerCarousel" data-slide="next">
-                                        <i class="fa-solid fa-brazilian-real-sign"></i>
-                                        <span class="button-text">Até R$50</span>
-                                    </button>
-                                </div>
-                            </div>
-                            <button id="prev">
-                                <svg
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    width="24"
-                                    height="24"
-                                    viewBox="0 0 24 24">
-                                    <path fill="none" d="M0 0h24v24H0V0z" />
-                                    <path d="M15.61 7.41L14.2 6l-6 6 6 6 1.41-1.41L11.03 12l4.58-4.59z" />
-                                </svg>
-                            </button>
-                            <button id="next">
-                                <svg
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    width="24"
-                                    height="24"
-                                    viewBox="0 0 24 24">
-                                    <path fill="none" d="M0 0h24v24H0V0z" />
-                                    <path d="M10.02 6L8.61 7.41 13.19 12l-4.58 4.59L10.02 18l6-6-6-6z" />
-                                </svg>
-                            </button>
-                        </div>
-                    </div>
-                </div>
+    <!-- Carrossel de botões -->
+    <div class="button-carousel-container">
+        <div id="carousel">
+            <div id="content">
+                <button class="btn" data-target="#offerCarousel" data-slide="next">
+                    <i class="bi bi-percent"></i>
+                    <span class="button-text">Todas as ofertas</span>
+                </button>
+                <button class="btn" data-target="#offerCarousel" data-slide="next">
+                    <i class="bi bi-lightning"></i>
+                    <span class="button-text">Ofertas relâmpago</span>
+                </button>
+                <button class="btn" data-target="#offerCarousel" data-slide="next">
+                    <i class="bi bi-megaphone"></i>
+                    <span class="button-text">Salvos</span>
+                </button>
+                <button class="btn" data-target="#offerCarousel" data-slide="next">
+                    <i class="bi bi-bag-heart"></i>
+                    <span class="button-text">Outlet</span>
+                </button>
+                <button class="btn" data-target="#offerCarousel" data-slide="next">
+                    <i class="fa-solid fa-brazilian-real-sign"></i>
+                    <span class="button-text">Menos de R$100</span>
+                </button>
+                <button class="btn" data-target="#offerCarousel" data-slide="next">
+                    <i class="bi bi-percent"></i>
+                    <span class="button-text">Promoções de Verão</span>
+                </button>
+                <button class="btn" data-target="#offerCarousel" data-slide="next">
+                    <i class="bi bi-lightning"></i>
+                    <span class="button-text">Descontos Exclusivos</span>
+                </button>
+                <button class="btn" data-target="#offerCarousel" data-slide="next">
+                    <i class="bi bi-megaphone"></i>
+                    <span class="button-text">Novidades</span>
+                </button>
+                <button class="btn" data-target="#offerCarousel" data-slide="next">
+                    <i class="bi bi-bag-heart"></i>
+                    <span class="button-text">Novos Itens</span>
+                </button>
+                <button class="btn" data-target="#offerCarousel" data-slide="next">
+                    <i class="fa-solid fa-brazilian-real-sign"></i>
+                    <span class="button-text">Até R$50</span>
+                </button>
             </div>
 
-    </header> -->
+        </div>
+    </div>
 
     <section>
         <article id="produtos-content">
             <!-- Botões de cabeçalho -->
             <div class="row">
                 <div class="col-12">
+                    <hr>
                     <div class="buttons-header">
                         <button class="btn-header">
                             <img src="images/3dicons-bag-iso-color.png" alt="Bag">
