@@ -20,7 +20,15 @@
 
     <script src="app.js"></script>
 
+    <style>
+        .tela {
+            display: none;
+        }
 
+        .ativa {
+            display: block;
+        }
+    </style>
 </head>
 
 <body>
@@ -200,189 +208,98 @@
 
     <section>
         <article id="produtos-content">
-            <!-- Botões de cabeçalho -->
+
             <div class="row">
                 <div class="col-12">
                     <hr>
                     <div class="buttons-header">
-                        <button class="btn-header">
+                        <button class="btn-header" onclick="mostrarTela('produtos')">
                             <img src="images/3dicons-bag-iso-color.png" alt="Bag">
                         </button>
-                        <button class="btn-header">
+                        <button class="btn-header" onclick="mostrarTela('tela2')">
                             <img src="images/3dicons-play-front-color.png" alt="Play">
                         </button>
-                        <button class="btn-header">
+                        <button class="btn-header" onclick="mostrarTela('tela3')">
                             <img src="images/3dicons-bookmark-front-color.png" alt="Bookmark">
+                        </button>
+                        <button class="btn-header" onclick="mostrarTela('image')">
+                            <img src="images/camera.png" alt="camera">
                         </button>
 
                     </div>
                 </div>
             </div>
 
-            <!-- Produtos -->
-            <div class="row">
-                <!-- Produto 1 -->
-                <div class="col-12 col-md-3">
-                    <div class="image-container">
-                        <div class="product-card">
-                            <div class="product-image">
-                                <img class="d-block w-100" src="images/337438-300x300.jpg.webp" alt="">
-                            </div>
-                            <div class="product-info">
-                                <h3 class="product-title">Shampoo e Mascara</h3>
 
-                                <div class="product-price">
-                                    <span class="original-price">R$ 78,90</span>
-                                    <span class="discounted-price">R$ 66,27</span>
-                                    <span class="discount">16% OFF</span>
+            <div id="produtos" class="tela">
+                <div class="row">
+                    <div class="col-12 col-md-3">
+                        <div class="image-container">
+                            <div class="product-card">
+                                <div class="product-image">
+                                    <img class="d-block w-100" src="images/337438-300x300.jpg.webp" alt="">
                                 </div>
-                                <div class="installment">
-                                    <span>em 12x R$ 6,50</span>
-                                </div>
-                                <div class="shipping">
-                                    <span class="free-shipping">Frete grátis</span>
-                                    <span class="shipping-detail">por ser sua primeira compra</span>
-                                </div>
-                                <div class="button-icons">
-                                    <button class="btn-heart"><i class="fa-regular fa-heart"></i></button>
-                                    <button class="btn-heart"><i class="fa-regular fa-message"></i></button>
-                                    <button class="btn-heart"><i class="fa-solid fa-paper-plane"></i></button>
-                                    <button class="btn-bookmark"><i class="fa-solid fa-bookmark"></i></button>
+                                <div class="product-info">
+                                    <h3 class="product-title">Shampoo e Mascara</h3>
+
+                                    <div class="product-price">
+                                        <span class="original-price">R$ 78,90</span>
+                                        <span class="discounted-price">R$ 66,27</span>
+                                        <span class="discount">16% OFF</span>
+                                    </div>
+                                    <div class="installment">
+                                        <span>em 12x R$ 6,50</span>
+                                    </div>
+                                    <div class="shipping">
+                                        <span class="free-shipping">Frete grátis</span>
+                                        <span class="shipping-detail">por ser sua primeira compra</span>
+                                    </div>
+                                    <div class="button-icons">
+                                        <button class="btn-heart"><i class="fa-regular fa-heart"></i></button>
+                                        <button class="btn-heart"><i class="fa-regular fa-message"></i></button>
+                                        <button class="btn-heart"><i class="fa-solid fa-paper-plane"></i></button>
+                                        <button class="btn-bookmark"><i class="fa-solid fa-bookmark"></i></button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
+
                     </div>
-
-                </div>
-                <div class="col-12 col-md-3">
-                    <div class="image-container">
-                        <div class="product-card">
-                            <div class="product-image">
-                                <img class="d-block w-100" src="images/337438-300x300.jpg.webp" alt="">
-                            </div>
-                            <div class="product-info">
-                                <h3 class="product-title">Shampoo e Mascara</h3>
-
-                                <div class="product-price">
-                                    <span class="original-price">R$ 78,90</span>
-                                    <span class="discounted-price">R$ 66,27</span>
-                                    <span class="discount">16% OFF</span>
-                                </div>
-                                <div class="installment">
-                                    <span>em 12x R$ 6,50</span>
-                                </div>
-                                <div class="shipping">
-                                    <span class="free-shipping">Frete grátis</span>
-                                    <span class="shipping-detail">por ser sua primeira compra</span>
-                                </div>
-                                <div class="button-icons">
-                                    <button class="btn-heart"><i class="fa-regular fa-heart"></i></button>
-                                    <button class="btn-heart"><i class="fa-regular fa-message"></i></button>
-                                    <button class="btn-heart"><i class="fa-solid fa-paper-plane"></i></button>
-                                    <button class="btn-bookmark"><i class="fa-solid fa-bookmark"></i></button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-                <div class="col-12 col-md-3">
-                    <div class="image-container">
-                        <div class="product-card">
-                            <div class="product-image">
-                                <img class="d-block w-100" src="images/337438-300x300.jpg.webp" alt="">
-                            </div>
-                            <div class="product-info">
-                                <h3 class="product-title">Shampoo e Mascara</h3>
-
-                                <div class="product-price">
-                                    <span class="original-price">R$ 78,90</span>
-                                    <span class="discounted-price">R$ 66,27</span>
-                                    <span class="discount">16% OFF</span>
-                                </div>
-                                <div class="installment">
-                                    <span>em 12x R$ 6,50</span>
-                                </div>
-                                <div class="shipping">
-                                    <span class="free-shipping">Frete grátis</span>
-                                    <span class="shipping-detail">por ser sua primeira compra</span>
-                                </div>
-                                <div class="button-icons">
-                                    <button class="btn-heart"><i class="fa-regular fa-heart"></i></button>
-                                    <button class="btn-heart"><i class="fa-regular fa-message"></i></button>
-                                    <button class="btn-heart"><i class="fa-solid fa-paper-plane"></i></button>
-                                    <button class="btn-bookmark"><i class="fa-solid fa-bookmark"></i></button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-                <div class="col-12 col-md-3">
-                    <div class="image-container">
-                        <div class="product-card">
-                            <div class="product-image">
-                                <img class="d-block w-100" src="images/337438-300x300.jpg.webp" alt="">
-                            </div>
-                            <div class="product-info">
-                                <h3 class="product-title">Shampoo e Mascara</h3>
-                                <div class="product-price">
-                                    <span class="original-price">R$ 78,90</span>
-                                    <span class="discounted-price">R$ 66,27</span>
-                                    <span class="discount">16% OFF</span>
-                                </div>
-                                <div class="installment">
-                                    <span>em 12x R$ 6,50</span>
-                                </div>
-                                <div class="shipping">
-                                    <span class="free-shipping">Frete grátis</span>
-                                    <span class="shipping-detail">por ser sua primeira compra</span>
-                                </div>
-                                <div class="button-icons">
-                                    <button class="btn-heart"><i class="fa-regular fa-heart"></i></button>
-                                    <button class="btn-heart"><i class="fa-regular fa-message"></i></button>
-                                    <button class="btn-heart"><i class="fa-solid fa-paper-plane"></i></button>
-                                    <button class="btn-bookmark"><i class="fa-solid fa-bookmark"></i></button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-                <div class="col-12 col-md-3">
-                    <div class="image-container">
-                        <div class="product-card">
-                            <div class="product-image">
-                                <img class="d-block w-100" src="images/337438-300x300.jpg.webp" alt="">
-                            </div>
-                            <div class="product-info">
-                                <h3 class="product-title">Shampoo e Mascara</h3>
-                                <div class="product-price">
-                                    <span class="original-price">R$ 78,90</span>
-                                    <span class="discounted-price">R$ 66,27</span>
-                                    <span class="discount">16% OFF</span>
-                                </div>
-                                <div class="installment">
-                                    <span>em 12x R$ 6,50</span>
-                                </div>
-                                <div class="shipping">
-                                    <span class="free-shipping">Frete grátis</span>
-                                    <span class="shipping-detail">por ser sua primeira compra</span>
-                                </div>
-                                <div class="button-icons">
-                                    <button class="btn-heart"><i class="fa-regular fa-heart"></i></button>
-                                    <button class="btn-heart"><i class="fa-regular fa-message"></i></button>
-                                    <button class="btn-heart"><i class="fa-solid fa-paper-plane"></i></button>
-                                    <button class="btn-bookmark"><i class="fa-solid fa-bookmark"></i></button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
                 </div>
             </div>
 
+            <div id="tela2" class="tela">
+                <h1>Tela 2</h1>
+                <p>Conteúdo da Tela 2</p>
+            </div>
+
+            <div id="tela3" class="tela">
+                <h1>Tela 3</h1>
+                <p>Conteúdo da Tela 3</p>
+            </div>
+
+            <div id="tela3" class="tela">
+                <h1>Tela 3</h1>
+                <p>Conteúdo da Tela 3</p>
+            </div>
+
+            <div id="image" class="tela">
+                <div class="row">
+                    <div class="col-12 col-md-3">
+                        <div class="image-container">
+                            <div class="product-card">
+                                <div class="product-image">
+                                    <img class="d-block w-100" src="images/337438-300x300.jpg.webp" alt="">
+                                </div>
+                                
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
         </article>
+
     </section>
 
 
@@ -419,4 +336,24 @@
 
     let width = carousel.offsetWidth;
     window.addEventListener("resize", e => (width = carousel.offsetWidth));
+</script>
+
+
+
+
+<script>
+    function mostrarTela(idTela) {
+        // Esconde todas as telas
+        const telas = document.querySelectorAll('.tela');
+        telas.forEach(tela => tela.classList.remove('ativa'));
+
+        // Mostra a tela correspondente ao ID
+        const telaAtiva = document.getElementById(idTela);
+        if (telaAtiva) {
+            telaAtiva.classList.add('ativa');
+        }
+    }
+
+    // Mostra a primeira tela por padrão
+    mostrarTela('produtos');
 </script>
