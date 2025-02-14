@@ -216,7 +216,7 @@
                         <button class="btn-header" onclick="mostrarTela('produtos')">
                             <img src="images/3dicons-bag-iso-color.png" alt="Bag">
                         </button>
-                        <button class="btn-header" onclick="mostrarTela('tela2')">
+                        <button class="btn-header" onclick="mostrarTela('video')">
                             <img src="images/3dicons-play-front-color.png" alt="Play">
                         </button>
                         <button class="btn-header" onclick="mostrarTela('tela3')">
@@ -268,15 +268,32 @@
                 </div>
             </div>
 
-            <div id="tela2" class="tela">
-                <h1>Tela 2</h1>
-                <p>Conteúdo da Tela 2</p>
+            <div id="video" class="tela">
+                <div class="row">
+                    <div class="col-12 col-md-3">
+                        <video controls>
+                            <source src="videos/5937383-uhd_2160_3840_24fps.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <div class="col-12 col-md-3">
+                        <video controls>
+                            <source src="videos/1704712-hd_1920_1080_30fps.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <div class="col-12 col-md-3">
+                        <video controls>
+                            <source src="videos/0902-383991325_small.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <div class="col-12 col-md-3">
+                        <video controls>
+                            <source src="videos/ssstik.io_@poviolinist_1739540113425.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                </div>
             </div>
 
-            <div id="tela3" class="tela">
-                <h1>Tela 3</h1>
-                <p>Conteúdo da Tela 3</p>
-            </div>
+
 
             <div id="tela3" class="tela">
                 <h1>Tela 3</h1>
@@ -291,10 +308,9 @@
                                 <div class="product-image">
                                     <img class="d-block w-100" src="images/337438-300x300.jpg.webp" alt="">
                                 </div>
-                                
+
                             </div>
                         </div>
-
                     </div>
                 </div>
             </div>
