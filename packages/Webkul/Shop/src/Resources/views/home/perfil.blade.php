@@ -237,7 +237,135 @@
                         <div class="image-container">
                             <div class="product-card">
                                 <div class="product-image">
-                                    <img class="d-block w-100" src="images/337438-300x300.jpg.webp" alt="">
+                                    <img class="d-block w-100" src="images/6fc32edce6f361b6553d447dece04451.jpg" alt="">
+                                </div>
+                                <div class="product-info">
+                                    <h3 class="product-title">Shampoo e Mascara</h3>
+
+                                    <div class="product-price">
+                                        <span class="original-price">R$ 78,90</span>
+                                        <span class="discounted-price">R$ 66,27</span>
+                                        <span class="discount">16% OFF</span>
+                                    </div>
+                                    <div class="installment">
+                                        <span>em 12x R$ 6,50</span>
+                                    </div>
+                                    <div class="shipping">
+                                        <span class="free-shipping">Frete grátis</span>
+                                        <span class="shipping-detail">por ser sua primeira compra</span>
+                                    </div>
+                                    <div class="button-icons">
+                                        <button class="btn-heart"><i class="fa-regular fa-heart"></i></button>
+                                        <button class="btn-heart"><i class="fa-regular fa-message"></i></button>
+                                        <button class="btn-heart"><i class="fa-solid fa-paper-plane"></i></button>
+                                        <button class="btn-bookmark"><i class="fa-solid fa-bookmark"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-12 col-md-3">
+                        <div class="image-container">
+                            <div class="product-card">
+                                <div class="product-image">
+                                    <img class="d-block w-100" src="images/8e325eed654659f84d35c6c452da1fbd.jpg" alt="">
+                                </div>
+                                <div class="product-info">
+                                    <h3 class="product-title">Shampoo e Mascara</h3>
+
+                                    <div class="product-price">
+                                        <span class="original-price">R$ 78,90</span>
+                                        <span class="discounted-price">R$ 66,27</span>
+                                        <span class="discount">16% OFF</span>
+                                    </div>
+                                    <div class="installment">
+                                        <span>em 12x R$ 6,50</span>
+                                    </div>
+                                    <div class="shipping">
+                                        <span class="free-shipping">Frete grátis</span>
+                                        <span class="shipping-detail">por ser sua primeira compra</span>
+                                    </div>
+                                    <div class="button-icons">
+                                        <button class="btn-heart"><i class="fa-regular fa-heart"></i></button>
+                                        <button class="btn-heart"><i class="fa-regular fa-message"></i></button>
+                                        <button class="btn-heart"><i class="fa-solid fa-paper-plane"></i></button>
+                                        <button class="btn-bookmark"><i class="fa-solid fa-bookmark"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-12 col-md-3">
+                        <div class="image-container">
+                            <div class="product-card">
+                                <div class="product-image">
+                                    <img class="d-block w-100" src="images/6fc32edce6f361b6553d447dece04451.jpg" alt="">
+                                </div>
+                                <div class="product-info">
+                                    <h3 class="product-title">Shampoo e Mascara</h3>
+
+                                    <div class="product-price">
+                                        <span class="original-price">R$ 78,90</span>
+                                        <span class="discounted-price">R$ 66,27</span>
+                                        <span class="discount">16% OFF</span>
+                                    </div>
+                                    <div class="installment">
+                                        <span>em 12x R$ 6,50</span>
+                                    </div>
+                                    <div class="shipping">
+                                        <span class="free-shipping">Frete grátis</span>
+                                        <span class="shipping-detail">por ser sua primeira compra</span>
+                                    </div>
+                                    <div class="button-icons">
+                                        <button class="btn-heart"><i class="fa-regular fa-heart"></i></button>
+                                        <button class="btn-heart"><i class="fa-regular fa-message"></i></button>
+                                        <button class="btn-heart"><i class="fa-solid fa-paper-plane"></i></button>
+                                        <button class="btn-bookmark"><i class="fa-solid fa-bookmark"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-12 col-md-3">
+                        <div class="image-container">
+                            <div class="product-card">
+                                <div class="product-image">
+                                    <img class="d-block w-100" src="images/8e325eed654659f84d35c6c452da1fbd.jpg" alt="">
+                                </div>
+                                <div class="product-info">
+                                    <h3 class="product-title">Shampoo e Mascara</h3>
+
+                                    <div class="product-price">
+                                        <span class="original-price">R$ 78,90</span>
+                                        <span class="discounted-price">R$ 66,27</span>
+                                        <span class="discount">16% OFF</span>
+                                    </div>
+                                    <div class="installment">
+                                        <span>em 12x R$ 6,50</span>
+                                    </div>
+                                    <div class="shipping">
+                                        <span class="free-shipping">Frete grátis</span>
+                                        <span class="shipping-detail">por ser sua primeira compra</span>
+                                    </div>
+                                    <div class="button-icons">
+                                        <button class="btn-heart"><i class="fa-regular fa-heart"></i></button>
+                                        <button class="btn-heart"><i class="fa-regular fa-message"></i></button>
+                                        <button class="btn-heart"><i class="fa-solid fa-paper-plane"></i></button>
+                                        <button class="btn-bookmark"><i class="fa-solid fa-bookmark"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-12 col-md-3">
+                        <div class="image-container">
+                            <div class="product-card">
+                                <div class="product-image">
+                                    <img class="d-block w-100" src="images/8e325eed654659f84d35c6c452da1fbd.jpg" alt="">
                                 </div>
                                 <div class="product-info">
                                     <h3 class="product-title">Shampoo e Mascara</h3>
@@ -270,29 +398,49 @@
 
             <div id="video" class="tela">
                 <div class="row">
-                    <div class="col-12 col-md-3">
+                    <div class="col-12 col-sm-6 col-md-3">
                         <video controls>
                             <source src="videos/5937383-uhd_2160_3840_24fps.mp4" type="video/mp4">
                         </video>
                     </div>
-                    <div class="col-12 col-md-3">
+                    <div class="col-12 col-sm-6 col-md-3">
                         <video controls>
                             <source src="videos/1704712-hd_1920_1080_30fps.mp4" type="video/mp4">
                         </video>
                     </div>
-                    <div class="col-12 col-md-3">
+                    <div class="col-12 col-sm-6 col-md-3">
                         <video controls>
                             <source src="videos/0902-383991325_small.mp4" type="video/mp4">
                         </video>
                     </div>
-                    <div class="col-12 col-md-3">
+                    <div class="col-12 col-sm-6 col-md-3">
                         <video controls>
                             <source src="videos/ssstik.io_@poviolinist_1739540113425.mp4" type="video/mp4">
                         </video>
                     </div>
+                    <div class="col-12 col-sm-6 col-md-3">
+                        <video controls>
+                            <source src="videos/5937383-uhd_2160_3840_24fps.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-3">
+                        <video controls>
+                            <source src="videos/1704712-hd_1920_1080_30fps.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-3">
+                        <video controls>
+                            <source src="videos/0902-383991325_small.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-3">
+                        <video controls>
+                            <source src="videos/ssstik.io_@poviolinist_1739540113425.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                 
                 </div>
             </div>
-
 
 
             <div id="tela3" class="tela">
@@ -303,15 +451,110 @@
             <div id="image" class="tela">
                 <div class="row">
                     <div class="col-12 col-md-3">
-                        <div class="image-container">
-                            <div class="product-card">
-                                <div class="product-image">
-                                    <img class="d-block w-100" src="images/337438-300x300.jpg.webp" alt="">
+                        <div class="image-view">
+                            <div class="view-card">
+                                <div class="view-image">
+                                    <img class="d-block w-100" src="images/39bd305f161a465381641260f991bba5.jpg" alt="">
                                 </div>
 
                             </div>
                         </div>
                     </div>
+
+                    <div class="col-12 col-md-3">
+                        <div class="image-view">
+                            <div class="view-card">
+                                <div class="view-image">
+                                    <img class="d-block w-100" src="images/3b3f87715c96026db1732e3038c55757.jpg" alt="">
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-3">
+                        <div class="image-view">
+                            <div class="view-card">
+                                <div class="view-image">
+                                    <img class="d-block w-100" src="images/39bd305f161a465381641260f991bba5.jpg" alt="">
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-3">
+                        <div class="image-view">
+                            <div class="view-card">
+                                <div class="view-image">
+                                    <img class="d-block w-100" src="images/3b3f87715c96026db1732e3038c55757.jpg" alt="">
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-3">
+                        <div class="image-view">
+                            <div class="view-card">
+                                <div class="view-image">
+                                    <img class="d-block w-100" src="images/39bd305f161a465381641260f991bba5.jpg" alt="">
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-3">
+                        <div class="image-view">
+                            <div class="view-card">
+                                <div class="view-image">
+                                    <img class="d-block w-100" src="images/39bd305f161a465381641260f991bba5.jpg" alt="">
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-3">
+                        <div class="image-view">
+                            <div class="view-card">
+                                <div class="view-image">
+                                    <img class="d-block w-100" src="images/3b3f87715c96026db1732e3038c55757.jpg" alt="">
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-3">
+                        <div class="image-view">
+                            <div class="view-card">
+                                <div class="view-image">
+                                    <img class="d-block w-100" src="images/39bd305f161a465381641260f991bba5.jpg" alt="">
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-3">
+                        <div class="image-view">
+                            <div class="view-card">
+                                <div class="view-image">
+                                    <img class="d-block w-100" src="images/3b3f87715c96026db1732e3038c55757.jpg" alt="">
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-3">
+                        <div class="image-view">
+                            <div class="view-card">
+                                <div class="view-image">
+                                    <img class="d-block w-100" src="images/39bd305f161a465381641260f991bba5.jpg" alt="">
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </article>
